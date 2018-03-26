@@ -304,6 +304,6 @@ int power_hint_override(power_hint_t hint, void* data) {
     return ret_val;
 }
 
-int set_interactive_override(int on) {
+int set_interactive_override(int UNUSED(on)) {
     return HINT_HANDLED; /* Don't excecute this code path, not in use */
 }
